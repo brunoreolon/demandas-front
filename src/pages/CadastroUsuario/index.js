@@ -14,7 +14,7 @@ export default function CadastroUsuario(){
                     Esqueceu sua senha
                 </Link>
             </section>
-            <form className="aa" action="">
+            <form className="aaa" action="">
                 <div className="dados-pessoais">
                     <input placeholder="Nome" type="text"/>
                     <input placeholder="Nome" type="text"/>
