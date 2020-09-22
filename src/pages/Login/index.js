@@ -16,7 +16,7 @@ export default function Logon() {
 
                     <Link className="back-link" to="/cadastro-usuario">
                         <FiLogIn size={16} color="red"/>
-                        Esqueceu sua senha
+                        Não tenho Cadastro
                     </Link>
                 </form>
             </section>

@@ -9,9 +9,9 @@ export default function CadastroUsuario(){
             <section>
                 <h1>Cadastro</h1>
 
-                <Link className="back-link" to="/cadastro-usuario">
+                <Link className="back-link" to="/">
                     <FiArrowLeft size={16} color="red"/>
-                    Esqueceu sua senha
+                    Voltar
                 </Link>
             </section>
             <form className="aaa" action="">
