@@ -9,7 +9,7 @@ export default function CadastroUsuario(){
             <section>
                 <h1>Cadastro</h1>
 
-                <Link className="back-link" to="/">
+                <Link className="back-link" to="/logon">
                     <FiArrowLeft size={16} color="red"/>
                     Voltar
                 </Link>
@@ -38,7 +38,7 @@ export default function CadastroUsuario(){
                     <input placeholder="Uiversidade" type="text"/>
                 </div>
 
-                <button className="button" type="submit"> Cadastrar</button>
+                <button className="button" type="submit">Cadastrar</button>
             </form>
         </div>
     );
