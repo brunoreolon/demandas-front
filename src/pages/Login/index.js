@@ -14,10 +14,16 @@ export default function Logon() {
                     <input type="password" placeholder="Sua Senha" />
                     <button className="button" type="submit">Entrar</button>
 
-                    <Link className="back-link" to="/cadastro-usuario">
-                        <FiLogIn size={16} color="red"/>
+                    <div className="back-link">
+                        <Link className="back-link" to="/cadastro-usuario">
+                            <FiLogIn size={16} color="red" />
                         Não tenho Cadastro
                     </Link>
+                        <Link className="back-link" to="/nova-senha">
+                            <FiLogIn size={16} color="red" />
+                        Esqueci minha senha
+                        </Link>
+                    </div>
                 </form>
             </section>
         </div>
